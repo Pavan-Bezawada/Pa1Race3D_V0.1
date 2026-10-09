@@ -1,146 +1,97 @@
 {
-	"textures": [
-		{
-			"image": "menu.png",
-			"format": "RGBA8888",
-			"size": {
-				"w": 1922,
-				"h": 1534
-			},
-			"scale": 1,
-			"frames": [
-				{
-					"filename": "menuPage",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 1920,
-						"h": 1080
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 1920,
-						"h": 1080
-					},
-					"frame": {
-						"x": 1,
-						"y": 1,
-						"w": 1920,
-						"h": 1080
-					}
-				},
-				{
-					"filename": "play_button_hover",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 550,
-						"h": 250
-					},
-					"spriteSourceSize": {
-						"x": 18,
-						"y": 10,
-						"w": 523,
-						"h": 240
-					},
-					"frame": {
-						"x": 1,
-						"y": 1083,
-						"w": 523,
-						"h": 240
-					}
-				},
-				{
-					"filename": "play_button",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 550,
-						"h": 250
-					},
-					"spriteSourceSize": {
-						"x": 29,
-						"y": 13,
-						"w": 502,
-						"h": 211
-					},
-					"frame": {
-						"x": 526,
-						"y": 1083,
-						"w": 502,
-						"h": 211
-					}
-				},
-				{
-					"filename": "title",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 446,
-						"h": 257
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 446,
-						"h": 257
-					},
-					"frame": {
-						"x": 1030,
-						"y": 1083,
-						"w": 446,
-						"h": 257
-					}
-				},
-				{
-					"filename": "build_button_hover",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 500,
-						"h": 225
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 494,
-						"h": 225
-					},
-					"frame": {
-						"x": 526,
-						"y": 1296,
-						"w": 494,
-						"h": 225
-					}
-				},
-				{
-					"filename": "build_button",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 500,
-						"h": 225
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 494,
-						"h": 208
-					},
-					"frame": {
-						"x": 1,
-						"y": 1325,
-						"w": 494,
-						"h": 208
-					}
-				}
-			]
-		}
-	],
-	"meta": {
-		"app": "https://www.codeandweb.com/texturepacker",
-		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:94276f6ece1d72e9fd7cd559d62e9500:7a301c7d88b05a4a8de98a1661eb57fe:e1b68abd82547da08a80c89591506971$"
-	}
+  "textures": [
+    {
+      "image": "menu.png",
+      "format": "RGBA8888",
+      "size": { "w": 1922, "h": 1534 },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "menuPage",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": { "w": 1920, "h": 1080 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 1920, "h": 1080 },
+          "frame": { "x": 1, "y": 1, "w": 1920, "h": 1080 }
+        },
+        {
+          "filename": "play_button_hover",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": { "w": 550, "h": 250 },
+          "spriteSourceSize": { "x": 18, "y": 10, "w": 523, "h": 240 },
+          "frame": { "x": 1, "y": 1083, "w": 523, "h": 240 }
+        },
+        {
+          "filename": "play_button",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": { "w": 550, "h": 250 },
+          "spriteSourceSize": { "x": 29, "y": 13, "w": 502, "h": 211 },
+          "frame": { "x": 526, "y": 1083, "w": 502, "h": 211 }
+        },
+        {
+          "filename": "title",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": { "w": 446, "h": 257 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 446, "h": 257 },
+          "frame": { "x": 1030, "y": 1083, "w": 446, "h": 257 }
+        },
+        {
+          "filename": "build_button_hover",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": { "w": 500, "h": 225 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 494, "h": 225 },
+          "frame": { "x": 526, "y": 1296, "w": 494, "h": 225 }
+        },
+        {
+          "filename": "build_button",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": { "w": 500, "h": 225 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 494, "h": 208 },
+          "frame": { "x": 1, "y": 1325, "w": 494, "h": 208 }
+        },
+        {
+          "filename": "arrow_button",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": { "w": 80, "h": 80 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 80 },
+          "frame": { "x": 1478, "y": 1083, "w": 80, "h": 80 }
+        },
+        {
+          "filename": "arrow_button_hover",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": { "w": 80, "h": 80 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 80, "h": 80 },
+          "frame": { "x": 1478, "y": 1165, "w": 80, "h": 80 }
+        },
+        {
+          "filename": "arrow1_button_hover",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": { "w": 88, "h": 70 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 88, "h": 70 },
+          "frame": { "x": 1478, "y": 1247, "w": 88, "h": 70 }
+        },
+        {
+          "filename": "arrow1_button",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": { "w": 88, "h": 70 },
+          "spriteSourceSize": { "x": 0, "y": 0, "w": 87, "h": 70 },
+          "frame": { "x": 1560, "y": 1083, "w": 87, "h": 70 }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "https://www.codeandweb.com/texturepacker",
+    "version": "3.0",
+    "smartupdate": "$TexturePacker:SmartUpdate:93243869219b66f9ab8f239ce7a65a92:788b6c3512cdb66207b5e78f233aff47:e1b68abd82547da08a80c89591506971$"
+  }
 }
